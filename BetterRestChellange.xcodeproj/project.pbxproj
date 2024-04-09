@@ -14,6 +14,7 @@
 		4E6BD6D12BC5A9F6002068A2 /* BetterRestChellangeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E6BD6D02BC5A9F6002068A2 /* BetterRestChellangeTests.swift */; };
 		4E6BD6DB2BC5A9F6002068A2 /* BetterRestChellangeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E6BD6DA2BC5A9F6002068A2 /* BetterRestChellangeUITests.swift */; };
 		4E6BD6DD2BC5A9F6002068A2 /* BetterRestChellangeUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E6BD6DC2BC5A9F6002068A2 /* BetterRestChellangeUITestsLaunchTests.swift */; };
+		4E6BD6EA2BC5AA2C002068A2 /* SleepCalculator.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 4E6BD6E92BC5AA2C002068A2 /* SleepCalculator.mlmodel */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +45,7 @@
 		4E6BD6D62BC5A9F6002068A2 /* BetterRestChellangeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BetterRestChellangeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4E6BD6DA2BC5A9F6002068A2 /* BetterRestChellangeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BetterRestChellangeUITests.swift; sourceTree = "<group>"; };
 		4E6BD6DC2BC5A9F6002068A2 /* BetterRestChellangeUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BetterRestChellangeUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		4E6BD6E92BC5AA2C002068A2 /* SleepCalculator.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = SleepCalculator.mlmodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +76,7 @@
 		4E6BD6B32BC5A9F4002068A2 = {
 			isa = PBXGroup;
 			children = (
+				4E6BD6E92BC5AA2C002068A2 /* SleepCalculator.mlmodel */,
 				4E6BD6BE2BC5A9F4002068A2 /* BetterRestChellange */,
 				4E6BD6CF2BC5A9F6002068A2 /* BetterRestChellangeTests */,
 				4E6BD6D92BC5A9F6002068A2 /* BetterRestChellangeUITests */,
@@ -258,6 +261,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4E6BD6C22BC5A9F4002068A2 /* ContentView.swift in Sources */,
+				4E6BD6EA2BC5AA2C002068A2 /* SleepCalculator.mlmodel in Sources */,
 				4E6BD6C02BC5A9F4002068A2 /* BetterRestChellangeApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
